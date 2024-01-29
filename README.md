@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Project
+# Data Structures and Algorithms
 
 ## Overview
 
