@@ -6,13 +6,11 @@ Briefly describe the purpose and scope of your project. Mention the key goals an
 
 ## Table of Contents
 
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Usage](#usage)
-- [Installation](#installation)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+- [Mathematics](#Mathematics)
+- [Arrays](#Arrays)
+- [Searching_Algos](#Searching_Algos)
+- [Sorting_Algos](#Sorting_Algos)
+
 
 ## Data Structures
 
