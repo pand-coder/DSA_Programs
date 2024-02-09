@@ -1,5 +1,3 @@
-
-
 //Bitwise Left shit operator - "<<"
 public class Main
 {
