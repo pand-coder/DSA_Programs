@@ -7,10 +7,10 @@ public class Main {
         if (n<=0) {
             System.out.println("0");
         } else {
-            int lsbPosition = Integer.numberOfTrailingZeros(n);
-            int lsbValue = n & 1;
-            System.out.println("LSB position: " + lsbPosition);
-            System.out.println("LSB value: " + lsbValue);
+            int Pos = Integer.numberOfTrailingZeros(n);
+            int Value = n & 1;
+            System.out.println("LSB position: " + Pos);
+            System.out.println("LSB value: " + Value);
         }
     }
 }
