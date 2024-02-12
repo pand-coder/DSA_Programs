@@ -12,7 +12,7 @@ int main()
         cin>>arr[i];
     }
     cout<<"The Subarrays of the array are:"<<endl;
-    for (int size = 1; size <= n; ++size) 
+    for (int size=1; size <= n; ++size) 
     {
         for(int i = 0;i<=n-size;++i)
         {
