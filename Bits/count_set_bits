@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        int res = 0;
+        while (n > 0) {
+            if (n%2!=0) { // LSB CHECK
+                res++;
+            }
+            n = n / 2;
+        }
+        System.out.println("set bits:"+res);
+    }
+}
