@@ -12,15 +12,15 @@ int main() {
 }
     for(int i=0;i<n-1;i++)
     {
-        int index=i;
+        int min=i;
         for(int j=i+1;j<n;j++)
         {
-            if(arr[j]<arr[index])
+            if(arr[j]<arr[min])
             {
-                index=j;
+                min=j;
             }
         }
-          swap(arr[i],arr[index]);
+          swap(arr[i],arr[min]);
     }
     cout<<"Sorted array: ";
     for(int i=0;i<n;i++)
