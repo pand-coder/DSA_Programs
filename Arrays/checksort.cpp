@@ -3,6 +3,8 @@ using namespace std;
 bool checkarraysort(int arr[],int n)
 {
     int i=0;
+    if(n==0 || n==1)
+        return true;
     for(i=1;i<n;i++)
     {
         if(arr[i]<arr[i-1])
