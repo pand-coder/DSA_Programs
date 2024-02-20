@@ -1,0 +1,35 @@
+class Solution{
+    public:
+    // arr: input array
+    // n: size of array
+    //Function to rearrange an array so that arr[i] becomes arr[arr[i]]
+    //with O(1) extra space.
+    void arrange(long long arr[], int n) {
+        int temp=0;
+        for(int i=0;i<n;i++)
+        {
+           arr[i]=(arr[arr[i]]%n)*n+arr[i]; // dividend=divisor*quotient+remainder
+        }
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=arr[i]/n;
+        }
+        
+        return;
+    }
+};
+
+
+//without O(1) time complexity
+class Solution{
+public:
+    void arrange(long long arr[], int n) {
+        long long temp[n]; 
+        for(int i = 0; i < n; i++) {
+            temp[i] = arr[arr[i]];
+        }
+        for(int i = 0; i < n; i++) {
+            arr[i] = temp[i];
+        }
+    }
+};
